@@ -2,93 +2,172 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Strategic Insight Portfolio – Benjaluck</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Strategic Project Portfolio 2025 - เบ็ญจลักษณ์ วงษ์สุดตา</title>
+  <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { font-family: 'Prompt', sans-serif; }
-    .card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.2); transform: translateY(-8px) scale(1.02); }
-    .glow-title { text-shadow: 0 2px 12px rgba(59,130,246,0.5); }
+    body {
+      font-family: "Sarabun", sans-serif;
+    }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet" />
 </head>
-<body class="bg-gradient-to-tr from-blue-50 to-white text-gray-800">
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-5xl mx-auto p-6">
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold mb-2">Strategic Project Portfolio 2025</h1>
+      <p class="text-xl text-indigo-600 font-semibold mb-1">โดย เบ็ญจลักษณ์ วงษ์สุดตา</p>
+      <p class="text-gray-600">Dashboard Development | Data-Driven Presentation | Strategic Communication Website</p>
+    </header>
 
-  <!-- Hero Banner -->
-  <section class="bg-white shadow-xl">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between py-12 px-6">
-      <div>
-        <h1 class="text-5xl font-extrabold text-blue-700 glow-title">Benjaluck Wongsuta</h1>
-        <p class="text-xl text-gray-600 mt-3">Strategic BI Developer & Data Storytelling </p>
-        <p class="text-md text-blue-500 mt-4">สรุปผลงานเชิงกลยุทธ์ปี 2025</p>
-      </div>
-      <div class="hidden md:block">
-        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cg3sfear.json" background="transparent" speed="1" style="width: 240px; height: 240px;" loop autoplay></lottie-player>
-      </div>
-    </div>
-  </section>
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">ภาพรวมผลงาน (Overview)</h2>
+      <p>
+        ในปี 2568 ได้ออกแบบและพัฒนา 4 โปรเจกต์ที่เชื่อมโยงกันอย่างมีระบบ โดยมุ่งเน้นการ <strong>วิเคราะห์เชิงกลยุทธ์</strong> และ <strong>การสื่อสาร Insight อย่างมืออาชีพ</strong> ทั้งในรูปแบบ Dashboard, Website และ HTML Presentation แบบ Interactive
+      </p>
+    </section>
 
-  <!-- Projects Section -->
-  <section class="text-center max-w-4xl mx-auto px-4 mt-12">
-    <h2 class="text-4xl font-bold text-blue-700">📌 ผลงานที่ดำเนินการในปี 2025</h2>
-    <p class="text-lg text-gray-700 mt-4">เน้นการพัฒนา Dashboard, Presentation และ Website เพื่อนำเสนอ Insight เชิงกลยุทธ์</p>
-  </section>
+    <section class="mb-10 space-y-8">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">โปรเจกต์สำคัญ (Projects)</h2>
 
-  <section class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto mt-14 px-6">
+      <article class="bg-white shadow rounded p-6">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-2">1. Alert CFC Dashboard</h3>
+        <p class="italic mb-2">กลยุทธ์การบริหารความเสี่ยงด้านคลังสินค้า</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>วิเคราะห์ DOI, Turnover, การจัดกลุ่มพื้นที่ผิดปกติ และ Risk Alert</li>
+          <li>ใช้สูตร DAX แบบ All-in-One เพื่อวิเคราะห์และสร้างการแจ้งเตือนอัตโนมัติ</li>
+          <li>รองรับการวิเคราะห์รายพื้นที่/เขต สื่อสารประเด็นสำคัญให้ผู้มีส่วนเกี่ยวข้อง</li>
+        </ul>
+      </article>
 
-    <!-- Project 1 -->
-    <div class="bg-white rounded-2xl p-6 card transition duration-300">
-      <h3 class="text-2xl font-bold text-blue-700 mb-3">📊 Alert CFC Dashboard</h3>
-      <p class="text-gray-700 mb-3">ระบบแจ้งเตือนและวิเคราะห์ความเสี่ยงคลังสินค้าแบบอัตโนมัติ</p>
-      <ul class="list-disc list-inside text-sm text-gray-600">
-        <li>วิเคราะห์ KPI ด้วยสูตร DAX เดียวครอบคลุม</li>
-        <li>แจ้งเตือนระดับคลัง – ประเทศ</li>
-        <li>รายงาน Insight เพื่อการตัดสินใจเชิงกลยุทธ์</li>
+      <article class="bg-white shadow rounded p-6">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-2">2. StockView Dashboard</h3>
+        <p class="italic mb-2">วิเคราะห์ประเภทสินค้าและทุนจม</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>วิเคราะห์ประเภทสินค้า (Fast/Slow/Non), ABC, DOI, Aging, Inventory Value</li>
+          <li>ใช้สูตร DAX รวมมิติเพื่อ Insight ที่ต่อเนื่องทั้งกราฟและตาราง</li>
+          <li>ช่วยให้หน่วยงานมองเห็นโครงสร้างคลังสินค้าและวางแผนเชิงกลยุทธ์ได้ชัดเจน</li>
+        </ul>
+      </article>
+
+      <article class="bg-white shadow rounded p-6">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-2">3. Power BI Learning Website</h3>
+        <p class="italic mb-2">พัฒนาองค์ความรู้เชิงกลยุทธ์ในองค์กร</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>เว็บไซต์เพื่อสอน Power BI สำหรับการวิเคราะห์เชิงกลยุทธ์</li>
+          <li>รวมความรู้ด้าน Data Model, DAX, Power Query, UX Design</li>
+          <li>มีบทเรียน + ตัวอย่าง Dashboard และแนวทางวิเคราะห์ที่ตอบโจทย์กลยุทธ์</li>
+          <li>ใช้ GitHub Pages เผยแพร่ รองรับทั้ง Desktop & Mobile</li>
+          <li>✳️ ให้คำปรึกษาและสอนแบบตัวต่อตัวสำหรับผู้สนใจภายในองค์กร</li>
+        </ul>
+      </article>
+
+      <article class="bg-white shadow rounded p-6">
+        <h3 class="text-xl font-semibold text-indigo-700 mb-2">4. HTML Strategic Insight Presentation</h3>
+        <p class="italic mb-2">เปลี่ยน Dashboard ให้เป็น Web Presentation สุดล้ำ</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-700">
+          <li>สรุป Insight จาก Alert CFC และ StockView เป็น Web Dashboard แบบ Interactive</li>
+          <li>ใช้ Reveal.js สำหรับ Presentation Slide และ Chart.js สำหรับกราฟ</li>
+          <li>HTML + Tailwind CSS เพื่อความสวยงามระดับมืออาชีพ</li>
+          <li>ใช้ JSON เป็น data source ทำให้สามารถเปลี่ยนเดือนและดู Insight ได้แบบ Dynamic</li>
+          <li>เผยแพร่ผ่าน GitHub Pages ให้ผู้ใช้งานเข้าถึงได้ตลอดเวลา</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">บทบาทและความรับผิดชอบ (Role & Contribution)</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>Power BI Developer: Data Modeling, DAX, Power Query</li>
+        <li>Insight Architect: สกัด Insight สำคัญเพื่อใช้ในการสื่อสารอย่างเป็นระบบ</li>
+        <li>Web Developer: HTML/CSS/JS + Chart.js + Reveal.js + Tailwind</li>
+        <li>UX/UI Designer: ออกแบบการนำเสนอให้เหมาะกับกลุ่มเป้าหมาย</li>
+        <li>Trainer: ถ่ายทอดความรู้ในรูปแบบ Website และการสอนแบบ Coaching</li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Project 2 -->
-    <div class="bg-white rounded-2xl p-6 card transition duration-300">
-      <h3 class="text-2xl font-bold text-blue-700 mb-3">📦 StockView Dashboard</h3>
-      <p class="text-gray-700 mb-3">แดชบอร์ดวิเคราะห์ทุนจม FSN & ABC Classification</p>
-      <ul class="list-disc list-inside text-sm text-gray-600">
-        <li>ใช้ DAX รวมสูตรแบบเดียวประเมินหลายมิติ</li>
-        <li>Interactive Filter เปรียบเทียบรายเดือน</li>
-        <li>มี Insight พร้อมแนวทางการจัดการ</li>
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">เทคโนโลยีและเครื่องมือ (Technology Stack)</h2>
+      <table class="min-w-full bg-white rounded shadow overflow-hidden">
+        <thead class="bg-indigo-600 text-white">
+          <tr>
+            <th class="py-2 px-4 text-left">ด้าน</th>
+            <th class="py-2 px-4 text-left">เครื่องมือ / ภาษา</th>
+            <th class="py-2 px-4 text-left">รายละเอียด</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b hover:bg-indigo-50">
+            <td class="py-2 px-4">BI Development</td>
+            <td class="py-2 px-4">Power BI Desktop</td>
+            <td class="py-2 px-4">สร้าง Dashboard เชิงกลยุทธ์</td>
+          </tr>
+          <tr class="border-b hover:bg-indigo-50 bg-gray-50">
+            <td class="py-2 px-4">DAX</td>
+            <td class="py-2 px-4">All-in-One Formula</td>
+            <td class="py-2 px-4">วิเคราะห์หลายมิติในสูตรเดียว</td>
+          </tr>
+          <tr class="border-b hover:bg-indigo-50">
+            <td class="py-2 px-4">Power Query (M)</td>
+            <td class="py-2 px-4">Data Transformation</td>
+            <td class="py-2 px-4">เตรียมข้อมูลให้เหมาะกับ Dashboard</td>
+          </tr>
+          <tr class="border-b hover:bg-indigo-50 bg-gray-50">
+            <td class="py-2 px-4">Web Dev</td>
+            <td class="py-2 px-4">HTML5, Tailwind CSS</td>
+            <td class="py-2 px-4">UI ทันสมัย & Responsive</td>
+          </tr>
+          <tr class="border-b hover:bg-indigo-50">
+            <td class="py-2 px-4">JavaScript</td>
+            <td class="py-2 px-4">Chart.js, Reveal.js</td>
+            <td class="py-2 px-4">Interactive Graph & Slide</td>
+          </tr>
+          <tr class="border-b hover:bg-indigo-50 bg-gray-50">
+            <td class="py-2 px-4">JSON</td>
+            <td class="py-2 px-4">Dynamic Data Format</td>
+            <td class="py-2 px-4">แสดง Insight เปลี่ยนตามเดือน</td>
+          </tr>
+          <tr class="hover:bg-indigo-50">
+            <td class="py-2 px-4">GitHub Pages</td>
+            <td class="py-2 px-4">Website Hosting</td>
+            <td class="py-2 px-4">ฟรี & เข้าถึงง่ายทุกอุปกรณ์</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">ผลลัพธ์ที่วัดได้ (Measurable Impact)</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-1">
+        <li>ลดระยะเวลาในการทำ Insight Report รายเดือนลงกว่า 60%</li>
+        <li>เพิ่มการเข้าถึง Insight จาก Power BI โดยไม่ต้องเปิด Tool</li>
+        <li>หลายทีมสามารถวิเคราะห์และตัดสินใจได้ดีขึ้นจาก Web Presentation</li>
+        <li>ผู้เรียน One-on-One หลายคนสามารถสร้าง Dashboard จริงได้หลังเรียน</li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Project 3 -->
-    <div class="bg-white rounded-2xl p-6 card transition duration-300">
-      <h3 class="text-2xl font-bold text-blue-700 mb-3">🎓 Power BI Learning Website</h3>
-      <p class="text-gray-700 mb-3">จัดทำเว็บไซต์ภายในสอนการใช้ Power BI แบบเข้าใจง่าย</p>
-      <ul class="list-disc list-inside text-sm text-gray-600">
-        <li>HTML + JS ออกแบบเป็น Web Learning</li>
-        <li>สื่อประกอบ: วิดีโอ, Dashboard ตัวอย่าง</li>
-        <li>เหมาะสำหรับบุคลากรที่ไม่มีพื้นฐานเทคนิค</li>
+    <section>
+      <h2 class="text-2xl font-bold mb-4 border-b-4 border-indigo-500 inline-block">ทักษะสำคัญ (Highlighted Skills)</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li><strong>Data Strategy & BI Development</strong><br>
+          - Design for Insight: สร้าง Dashboard ที่ตอบโจทย์เชิงกลยุทธ์<br>
+          - DAX Mastery: สูตรเดียวรองรับหลายมิติ วิเคราะห์เชิงลึก<br>
+          - Visualization to Communication: เปลี่ยนข้อมูลซับซ้อนให้เข้าใจง่าย
+        </li>
+        <li><strong>Web & UX for Data Storytelling</strong><br>
+          - Interactive Web Design สำหรับ Insight Presentation<br>
+          - ใช้เทคโนโลยี Web เพื่อขยายขอบเขตการเข้าถึงข้อมูล
+        </li>
+        <li><strong>Knowledge Sharing</strong><br>
+          - ถ่ายทอดแนวคิดผ่าน Website + Coaching ที่ใช้งานได้จริง<br>
+          - ส่งเสริม Data Culture ในทีมอย่างยั่งยืน
+        </li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Project 4 -->
-    <div class="bg-white rounded-2xl p-6 card transition duration-300">
-      <h3 class="text-2xl font-bold text-blue-700 mb-3">💡 HTML Strategic Insight Presentation</h3>
-      <p class="text-gray-700 mb-3">สรุป Insight จาก Dashboard ผ่าน HTML Interactive</p>
-      <ul class="list-disc list-inside text-sm text-gray-600">
-        <li>ใช้ Chart.js สร้าง Visualization</li>
-        <li>Filter เลือก Insight ตามเดือน/หมวด</li>
-        <li>แสดงผลได้ทุกที่ ไม่ต้องใช้ Power BI</li>
-      </ul>
-    </div>
-
-  </section>
-
-  <!-- Footer -->
-  <footer class="text-center py-10 mt-20 text-sm text-gray-500">
-    © 2025 Benjaluck Wongsuta · Strategic Insight Showcase · Powered by Tailwind CSS & Lottie 💙
-  </footer>
-
+    <footer class="mt-12 text-center text-gray-500 italic">
+      <p>“Dashboard คือแค่จุดเริ่ม Insight... การเล่าเรื่องอย่างมีชั้นเชิง คือพลังที่แท้จริง”</p>
+    </footer>
+  </div>
 </body>
 </html>
